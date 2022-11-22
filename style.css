@@ -1,0 +1,103 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.wrapper{
+    border: 1px solid black;
+    width: 850px;
+    background-color: rgba(237,239,241,255);
+    margin: 0 auto;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    font-size: x-small;
+
+}
+.main{
+    padding: 50px 80px;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+
+
+}
+button{
+    padding: 2px;
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+    font-size: x-small;
+}
+a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(22, 21, 21);
+    font-weight: bold;
+}
+div.brief-intro{
+    display: flex;
+}
+div.brief-intro >img{
+width: 180px;
+}
+
+
+div.intro-text{
+    margin-left: 50px;
+    width: 450px;
+    color: rgb(160, 158, 158);
+    line-height: 20px;
+
+}
+div.intro-text >h1{
+    color: rgb(53, 52, 52);
+}
+
+div.abouts{
+    display: flex;
+    justify-content: space-between;
+
+}
+div.career{
+    width: 50%;
+}
+div.career >h1{
+    color:  rgb(53, 52, 52);
+}
+div.career >p{
+    font-size: 0.6em;
+    line-height: 13px;
+    color: rgb(160, 158, 158);
+
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin-top: 80px;
+    width: 40%;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
+.skills >span{
+    padding:  3px 5px;
+    border: 1px solid rgb(231, 227, 227);
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    color: rgb(32, 31, 31);
+
+}
