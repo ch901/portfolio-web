@@ -66,6 +66,8 @@ div.intro-text >h1{
 div.abouts{
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
+
 
 }
 div.career{
@@ -73,6 +75,7 @@ div.career{
 }
 div.career >h1{
     color:  rgb(53, 52, 52);
+
 }
 div.career >p{
     font-size: 0.6em;
