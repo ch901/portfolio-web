@@ -1,11 +1,28 @@
+*
+*:before 
+*:after{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content-wrapper{
+    box-sizing: border-box;
+    width: 850px;
+    margin: 0 auto;
+    height: 670px;
+    border: 10px solid transparent;
+    padding: 15px;
+    background-image: linear-gradient(red 10%, green 85%, blue 90%);
+
 }
 div.wrapper{
     border: 1px solid black;
     width: 800px;
     background-color: rgba(237,239,241,255);
-    margin: 0 auto;
+
    
 }
 nav{
